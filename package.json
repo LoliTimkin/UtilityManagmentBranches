@@ -1,0 +1,20 @@
+{
+  "name": "utilites",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "gitlab-api-create.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-tag": "node gitlab-api-tag.js",
+    "create-branch": "node gitlab-api-create.js",
+    "merge": "node gitlab-api-merge.js",
+    "delete-old-branch": "node gitlab-api-branch-delete.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@gitbeaker/node": "^35.8.1"
+  }
+}
